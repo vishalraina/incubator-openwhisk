@@ -9,7 +9,8 @@
 # Use vagrant suspend and vagrant up (using up it skips provisioning)
 
 BOX = "ubuntu/trusty64-2"
-BOX_URL =  "https://cloud-images.ubuntu.com/vagrant/trusty/current/trusty-server-cloudimg-amd64-vagrant-disk1.box"
+# BOX_URL =  "https://cloud-images.ubuntu.com/vagrant/trusty/current/trusty-server-cloudimg-amd64-vagrant-disk1.box"
+BOX_URL =  "file://Users/viraina/workspace/github.com/openwhisk/tools/vagrant/workingOpenwiskenvirnoment"
 BOX_MEMORY = ENV['BOX_MEMORY'] || '4096'
 BOX_CPUS = ENV['BOX_CPUS'] || '4'
 MACHINE_IP = ENV['MACHINE_IP'] || '192.168.33.13'
